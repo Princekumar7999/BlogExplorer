@@ -7,8 +7,8 @@ import 'package:hive/hive.dart';
 import '../models/blog.dart';
 
 class BlogRepository {
-  final String _baseUrl = 'https://intent-kit-16.hasura.app/api/rest/blogs';
-  final String _adminSecret = '32qR4KmXOIpsGPQKMqEJHGJS27G5s7HdSKO3gdtQd2kv5e852SiYwWNfxkZOBuQ6';
+  final String _baseUrl = '<API LINK>';
+  final String _adminSecret = '<API LINK>';
 
   Future<List<Blog>> fetchBlogs() async {
     try {
